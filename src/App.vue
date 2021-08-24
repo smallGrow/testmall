@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <jin-li-object></jin-li-object>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import JinLiObject from "./components/JinLiObject";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JinLiObject
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import "css/jinLicss/jinLIcss.css";
 </style>
