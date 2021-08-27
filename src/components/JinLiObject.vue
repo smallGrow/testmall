@@ -162,14 +162,95 @@
                     </div>
                 </div>
             </div>
-
             <!--        热卖推荐介绍-->
-
+            <div class="interval"></div>
+<!--            精品配件开始-->
+            <div class="beauty">
+                <h3 class="title title1">精美配件</h3>
+                <a href="#" class="more">...更多...</a>
+                <div class="beauty-box">
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="../img/jinLiImage/55.jpeg" alt="">
+                        </a>
+                        <div class="text-box">
+                            <p class="name">线控动漫</p>
+                            <p class="desc">迷你携带，数字数码</p>
+                            <p class="price price1"><span>￥</span>999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            精品配件结束-->
         </div>
 
 
     </div>
-<!--    主题结束-->
+<!--    主体结束-->
+    <div class="clear1"></div>
+<!--    品牌动态开始-->
+    <div class="dongtai">
+        <div class="wrap">
+            <h3 class="title title1">品牌动态</h3>
+            <div class="dongtai-box">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+<!--    品牌动态结束-->
+
 </template>
 
 <script>

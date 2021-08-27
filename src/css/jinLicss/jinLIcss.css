@@ -12,6 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
                        /*水平居中盒子*/
 .wrap{
@@ -114,7 +115,6 @@
 .nav-list{
     width: 100%;
     height: 250px;
-    background-color: pink;
     border-top: 1px solid #d5d5d5;
     position: absolute;
     left: 0px;
@@ -137,10 +137,14 @@
 }
 /*轮播图样式介绍*/
 /*明星产品样式开始*/
+container{
+    background-color: gray;
+    overflow: hidden;
+}
 .star{
     width: 100%;
     height: 451px;
-
+    clear: both;
 }
 .title{
     font-weight: normal;
@@ -157,7 +161,6 @@
 .star-box>div{
     width: 390px;
     height: 270px;
-    background-color: palegreen;
     float: left;
     position: relative;
 }
@@ -196,19 +199,24 @@
     color: #000;
     float: right;
 }
+.more:hover{
+    color: #ef4200;
+}
 .hot-box{
     clear: both;
+    overflow: hidden;
 }
 .hot-box-left{
     width: 305px;
     height: 785px;
-    background-color: red;
     float: left;
+}
+.hot-box-left:hover{
+box-shadow: 0 15px 30px;
 }
 .hot-box-right{
     width: 891px;
     height: 785px;
-    background-color: yellow;
     float: left;
 }
 .hot-box-left img{
@@ -218,7 +226,6 @@
 .hot-box-right>div{
     width: 290px;
     height: 390px;
-    background-color: pink;
     margin-left: 7px;
     margin-bottom: 5px;
     float: left;
@@ -230,7 +237,6 @@ div>a{
 .img-box{
     width: 100%;
     height: 240px;
-    background-color: #98bf21;
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
@@ -265,5 +271,73 @@ div>a{
 .hot-box-right>div:hover .right{
     left: 115px;
 }
-
 /*热卖推荐介绍*/
+/*间隔*/
+.interval{
+    clear: both;
+}
+
+/*精品配件开始*/
+.beauty-box{
+    clear: both;
+}
+.beauty-box>div{
+    width: 386px;
+    height: 343px;
+    float: left;
+    margin-bottom: 16px;
+    margin-right: 19px;
+    position: relative;
+    text-align: center;
+}
+.beauty-box>div:nth-child(3n){
+    margin-right: 0px;
+}
+.beauty-box>div img{
+    width: 386px;
+    height: 343px;
+}
+.text-box{
+    width: 100%;
+    height: 86px;
+    position: absolute;
+    bottom: 21px;
+}
+.price1{
+    margin-top: 2px;
+    color: #f06261;
+}
+.beauty-box>div:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0);
+}
+.beauty{
+    padding-bottom: 60px;
+}
+.beauty::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*精品配件结束*/
+.clear1{
+    clear: both;
+}
+/*品牌动态开始*/
+.dongtai{
+    background-color: #fff;
+
+}
+.dongtai-box{
+    width: 100%;
+    height: 377px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+.dongtai-box>div{
+    width: 386px;
+    height: 377px;
+    background-color: pink;
+    float: left;
+    margin-bottom: 12px;
+}
+/*品牌动态结束*/
