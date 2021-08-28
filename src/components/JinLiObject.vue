@@ -243,14 +243,115 @@
         <div class="wrap">
             <h3 class="title title1">品牌动态</h3>
             <div class="dongtai-box">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <a href="#">
+                        <img src="../img/jinLiImage/99.jpeg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/jinLiImage/99.jpeg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="../img/jinLiImage/99.jpeg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 <!--    品牌动态结束-->
+<!--    页脚1开始-->
+    <div class="footer1">
+        <div class="wrap">
+            <div class="serve">
+                <ul>
+                    <li><a href="#"><i>包</i><span>七天<br/>退货保障</span></a></li>
+                    <li><a href="#"><i>包</i><span>七天<br/>退货保障</span></a></li>
+                    <li><a href="#"><i>包</i><span>七天<br/>退货保障</span></a></li>
+                    <li><a href="#"><i>包</i><span>七天<br/>退货保障</span></a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <ul>
+                    <li>关于金立</li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                </ul>
+                <ul>
+                    <li>关于金立</li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                </ul>
+                <ul>
+                    <li>关于金立</li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                </ul>
+                <ul>
+                    <li>关于金立</li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                </ul>
+                <ul>
+                    <li>关于金立</li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                    <li><a href="#">企业荣誉</a></li>
+                </ul>
+                <div class="code">
+                    <img src="../img/jinLiImage/11.jpeg" alt="">
+                    <p>扫一扫关注微信</p>
 
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    页脚1结束-->
+<!--    页脚2开始-->
+    <div class="footer2">
+        <div class="wrap">
+            <p>
+                <a href="#">网站地图</a>
+                <span>|</span>
+                <a href="#">集团下属公司</a>
+            </p>
+            <p>
+                增值电信业务经营许可证:
+                鄂B2-20120350鄂
+                ICP备05087105号
+                鄂网文[2018]10835-3804号
+                鄂文市审核[2012]196号
+                <img src="../img/jinLiImage/22.jpeg" alt="">
+                <img src="../img/jinLiImage/22.jpeg" alt="">
+                <img src="../img/jinLiImage/22.jpeg" alt="">
+            </p>
+            <p>
+                Copyright 2013 深圳市金立通信设备有限公司 版权所有 .
+            </p>
+        </div>
+    </div>
+<!--    页脚2结束-->
 </template>
 
 <script>
