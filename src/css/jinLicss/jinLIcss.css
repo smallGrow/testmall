@@ -288,6 +288,7 @@ div>a{
     margin-right: 19px;
     position: relative;
     text-align: center;
+    transition: all .3s ease-in;
 }
 .beauty-box>div:nth-child(3n){
     margin-right: 0px;

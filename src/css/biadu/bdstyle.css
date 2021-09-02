@@ -1,0 +1,111 @@
+/*全局设置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,textarea,button,
+p,blockquote,th,td
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #f2f4f5;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,button,img{
+    border: none;
+    vertical-align: middle;
+}
+
+/*   导航条开始*/
+.nav{
+    width: 100%;
+    height: 75px;
+    background-color: #ff4433;
+    /*开启弹性盒*/
+    display: flex;
+}
+.arrow{
+    width: 75px;
+    height: 75px;
+    /*background-color:  palegoldenrod;*/
+}
+.arrow img{
+    width: 75px;
+    height: 75px;
+}
+.searcher{
+    width: 75px;
+    height: 75px;
+    background-color:greenyellow;
+}
+.searcher img{
+    width: 75px;
+    height: 75px;
+}
+.titler{
+    height: 75px;
+    line-height: 75px;
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+/*   导航条结束*/
+/*美食样式开始*/
+.food{
+    margin-top: 75px;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    /*设置子元素侧轴居中*/
+    align-items: center;
+}
+.food>div{
+    flex-grow: 1;
+}
+.food a,.menu a{
+    color: #000;
+    font-size: 12px;
+}
+.food img{
+    min-width: 50px;
+    width: 40%;
+}
+/*美食样式结束*/
+/*菜单开始*/
+.menu{
+    width: 100%;
+    height: 233px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.menu-top,.menu-bottom{
+    width: 100%;
+    height: 111px;
+    display: flex;
+    align-items: center;
+}
+.menu-top{
+    border-bottom: 1px solid #f3f4f5;
+}
+.menu-top>div,.menu-bottom>div{
+    flex-grow: 1;
+    border-right: 1px solid #f2f4f5;
+}
+.menu-top>div:last-child,.menu-bottom>div:last-child{
+    border-right: none;
+}
+/*菜单结束*/
+/*为你优选样式开始*/
+.forU{
+    background-color: #fff;
+    margin-top: 20px;
+
+}
+/*为你优选样式结束*/
