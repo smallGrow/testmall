@@ -106,6 +106,29 @@ input,button,img{
 .forU{
     background-color: #fff;
     margin-top: 20px;
-
+    overflow: hidden;
+}
+.forU>h1{
+    font-weight: normal;
+    text-align: left;
+    margin: 30px 0;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.forU-box{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+.forU-box>div{
+    flex-grow: 1;
+    margin-right: 1%;
+}
+.forU-box>div:last-child{
+    margin-right: 0;
+}
+.forU-box img{
+    width: 100%;
 }
 /*为你优选样式结束*/

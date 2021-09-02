@@ -118,7 +118,13 @@
 <!--    菜单结束-->
 <!--    为你优选开始-->
     <div class="forU">
-
+        <h1>为你优选</h1>
+        <div class="forU-box">
+            <div><a href="#"><img src="../img/baiduImage/hotel1.jpg" alt=""></a></div>
+            <div><a href="#"><img src="../img/baiduImage/hotel1.jpg" alt=""></a></div>
+            <div><a href="#"><img src="../img/baiduImage/hotel1.jpg" alt=""></a></div>
+            <a href="#"></a>
+        </div>
     </div>
 <!--    为你优选结束-->
 </template>
