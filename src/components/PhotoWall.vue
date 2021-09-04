@@ -1,4 +1,5 @@
 <template>
+    <span class="iconfont">&#xe60d;</span>
     <h1>CSSS3照片墙</h1>
     <div class="box">
         <img src="../img/PhotoWall/beauty1.jpg" alt="" class="img1">

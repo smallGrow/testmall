@@ -24,4 +24,5 @@ export default {
   /*@import "css/jinLicss/jinLIcss.css";*/
   /*@import "css/biadu/bdstyle.css";*/
   @import "css/PhotoWall/PhotoWallImage.css";
+  @import "css/font/iconfont.css";
 </style>
